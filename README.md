@@ -1,9 +1,10 @@
-## random-password-generator
-- This Python script is a simple password generator that creates randomized strings using letters, numbers, and symbols.
-- It imports the `random` and `string` modules to build a character pool, then defines the `generate_password_random()` function with an optional length (default 12).
-- The function randomly selects characters from the pool and joins them into a string, ensuring a unique password each time.
-- The script finally runs the function with length 16 and prints the result.
+## simple-random-password-generator
+
+- The code imports string sets (letters, digits, symbols) and uses secrets.choice for secure randomization.
+- generate_password() creates a random password of a chosen length.
+- generate_strong_password() ensures a "stronger" password by requiring at least one digit and one symbol.
+- The script then outputs a 16-character strong password.
 
 
-https://github.com/user-attachments/assets/dd6e0d94-a359-45c2-99be-23fcc119bc69
+https://github.com/user-attachments/assets/a2fc6325-07cc-4319-bdd4-a844041bceed
 
